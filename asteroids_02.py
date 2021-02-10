@@ -4,8 +4,8 @@ from pyglet import gl
 import random
 
 TITLE = 'Asteroids'
-HEIGHT = 600 #px
-WIDTH = 800 #px
+HEIGHT = 600 #px  ! this is automatically set from actual window height !
+WIDTH = 800 #px  ! this is automatically set from actual window width !
 OBJECTSCNT = 10 #number of objects in the game
 SPEEDUP_ACCELERATION = 10 #px/s^2 for ship
 SPEEDDOWN_ACCELERATION = 8 #px/s^2 for ship
